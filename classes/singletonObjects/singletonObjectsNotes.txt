@@ -1,0 +1,13 @@
+ Singleton Objects
+ 
+ Scala is more object-oriented than Java because in Scala, we cannot have static members**. 
+ Instead, Scala has singleton objects. A singleton is a class that can have only one instance, 
+ i.e., Object. You create singleton using the keyword object instead of class keyword. 
+ Since you can't instantiate a singleton object, you can't pass parameters to the primary constructor. 
+ (All the examples using singleton objects where you called Scala's main method)
+
+ **Static Members definiton -- https://www.techopedia.com/definition/26137/static-members
+    Static members are data members (variables) or methods that belong to a static or a 
+    non static class itself, rather than to objects of the class. Static members always remain the same, 
+    regardless of where and how they are used. Because static members are associated with the class, 
+    it is not necessary to create an instance of that class to invoke them.
