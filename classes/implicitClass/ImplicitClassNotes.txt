@@ -1,0 +1,22 @@
+/*
+Implicit Classes
+
+Implicit classes allow implicit conversations with class's primary constructor
+when the class is in scope. Implicit class is a class marked with 'implicit' keyword.
+
+    Syntax −
+    The following is the syntax for implicit classes.
+    Here implicit class is always in the object scope
+    where all method definitions are allowed because
+    implicit class cannot be a top level class.
+
+    object <object name> {
+        implicit class <class name>(<Variable>: Datatype) {
+            def <method>(): Unit =
+        }
+    }
+
+    −Implicit classes must be defined inside another class/object/trait (not in top level).
+    −Implicit classes may only take one non −implicit argument in their constructor.
+    −Implicit classes may not be any method, member or object in scope with the same name as the implicit class.
+*/
